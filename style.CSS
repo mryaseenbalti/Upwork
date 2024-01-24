@@ -1,0 +1,163 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aquamarine; */
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.uplogo{
+    display: inline; 
+   margin-left: 15px; 
+   padding-top: 6px;
+}
+.menu-bar{
+    background:white ;
+    /* text-align: center; */
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+
+}
+.menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .menu-1{
+    display: block;
+    position: absolute;
+    background:#fff;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .menu-1 ul li :last-child{
+    
+
+}
+.search{
+    display: inline;
+    
+
+}
+.search1{
+    text-align: center;
+    height: 30px;
+    border-radius: 25px;
+}
+.Login-signup{
+    display: inline;
+    padding-right: 25px;
+}
+.login1:hover{
+    color: #2bab0d;
+    
+}
+.Sign1{
+    background-color: #2bab0d;
+    border: none;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+}
+.rightpart{
+    float: right;
+    padding-top: 10px;
+
+}
+.nav2{
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+li{
+    display: inline;
+}
+.more{
+    display: none;
+}
+.nav2 ul li:hover .more{
+    display: block;
+    position: absolute;
+    background: #fff;
+}
+.nav2 ul li:hover .more ul{
+    display: block;
+    margin: 10px;
+}
+.nav2 ul li:hover .more ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.text1{
+    color: #2bab0d;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text2{
+    margin: 30px 30px;
+    font-size: larger;
+}
+.btg{
+    font-size: 15px;
+    margin: 15px 0px 20px 2px; 
+    background-color: #2bab0d;
+    border: none;
+    padding: 7px;
+    width: 126px;
+    color: #fff;
+    border-radius: 18px;
+    text-align: center;
+}
+.btg:hover{
+    cursor: pointer;
+}
+.pic1{
+    margin: -300px 0px 0px 700px;
+}
+.pic2{
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.mm{
+    text-decoration: none;
+    color: black;
+}
+.mm:hover{
+    color: #2bab0d;
+}
